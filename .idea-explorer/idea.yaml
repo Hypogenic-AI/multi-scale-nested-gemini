@@ -1,0 +1,33 @@
+idea:
+  title: Multi-Scale Nested Learning for Hierarchical Memory Systems in Continual
+    Learning
+  domain: machine_learning
+  hypothesis: 'Hierarchically nesting memory systems as per Nested Learning, with
+    each level responsible for a different temporal granularity (e.g., short-, medium-,
+    and long-term), will reduce catastrophic forgetting and increase flexibility in
+    continual learning tasks, outperforming conventional memory architectures.
+
+    '
+  background:
+    description: "What if we organize neural memories like Russian dolls\u2014nested\
+      \ at different scales\u2014to help AI remember both old and new things better?\
+      \ Concretely, let's build a system where each \"level\" of memory is tuned to\
+      \ a different timescale, and see if this improves the balance between retaining\
+      \ old knowledge and absorbing new information in continual learning benchmarks.\n"
+    papers:
+    - description: '"Nested Learning: The Illusion of Deep Learning Architectures."
+        Behrouz, A., Razaviyayn, M., Zhong, P., & Mirrokni, V. (2025).'
+    - description: '"Joint Memory Optimization for Continual Learning." Ma, Z., Ma,
+        Y., Hong, X., Li, H., & Zhang, S. (2025). IEEE Transactions on Circuits and
+        Systems for Video Technology.'
+    - description: '"Continual Learning in Open-vocabulary Classification with Complementary
+        Memory Systems." Zhu, Z., Lyu, W., Xiao, Y., & Hoiem, D. (2023). Transactions
+        on Machine Learning Research.'
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/b5VlM5OzrR9an3k9T4wI
+    idea_id: multi_scale_nested_learning_fo_20260111_144137_13a63263
+    created_at: '2026-01-11T14:41:37.381432'
+    status: submitted
+    github_repo_name: multi-scale-nested-gemini
+    github_repo_url: https://github.com/Hypogenic-AI/multi-scale-nested-gemini
